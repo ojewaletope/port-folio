@@ -1,7 +1,7 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  box-sizing: border-box
 }
 
 :root {
@@ -384,6 +384,7 @@ header {
 .portfolio {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem;
 }
 
 .portfolio__item {
@@ -405,6 +406,11 @@ header {
   opacity: 0.75;
 }
 
+.portfolio__wrapper {
+  background: var(--color-light);
+  color: var(--color-dark);
+  padding-bottom: 1rem;
+}
 /*footer*/
 
 .footer {
